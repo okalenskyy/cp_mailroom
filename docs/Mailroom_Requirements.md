@@ -4,6 +4,11 @@
 
 ## What you are about to build
 
+
+---
+
+## What you are about to build
+
 **Mailroom** is a privacy‑conscious, human‑in‑the‑loop AI inbox triage assistant. Over 15 working days, with a partner, you will build a public‑GitHub‑grade Python project that:
 
 - triages your unread mail every morning,
