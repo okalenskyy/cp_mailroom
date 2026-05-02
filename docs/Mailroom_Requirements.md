@@ -40,7 +40,6 @@ Mailroom is destructive to play with. Do **not** point it at your real inbox. Cr
 | `uv` | venv & dependency manager | `pip install uv` (or `brew install uv`) |
 | Git + GitHub CLI | source control | https://cli.github.com |
 | Claude Code | the agent IDE | https://claude.com/claude-code |
-| Node 20+ | only for some MCP CLI helpers | `nvm install 20` |
 | A laptop with ≥ 16 GB RAM | local embeddings work smoothly | (verify yours) |
 
 ### 3. API keys
