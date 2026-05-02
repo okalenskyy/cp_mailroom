@@ -4,11 +4,6 @@
 
 ## What you are about to build
 
-
----
-
-## What you are about to build
-
 **Mailroom** is a privacy‑conscious, human‑in‑the‑loop AI inbox triage assistant. Over 15 working days, with a partner, you will build a public‑GitHub‑grade Python project that:
 
 - triages your unread mail every morning,
@@ -20,7 +15,18 @@ By the end you will own a portfolio repo with: a custom MCP server, six speciali
 
 ---
 
-## What you need before Day 1
+## Workflows
+
+/morning-inbox — a 1‑page brief at the top of every day: who needs you today, what you owe people, what you're waiting on, and "ghost meetings" — proposed times buried in threads with no calendar event yet.
+/triage — walks the unread inbox and produces a structured action plan: classify (urgent / action‑required / FYI / newsletter / social), extract action items, propose archive / label / snooze, surface "must reply today". Nothing is applied until the user runs /triage --apply, which goes through a confirmation Hook.
+/draft <email-id> — produces a reply grounded in (a) the full thread, (b) your sent‑mail style profile, (c) your personal knowledge (notes, calendar, prior conversations with that contact). The draft lands in Gmail's drafts folder; never auto‑sent.
+/follow-up (emails you sent that nobody replied to in N days), 
+/unsubscribe-audit (newsletters you never open — generates a checklist, never auto‑clicks), 
+/calendar-conflicts (proposed times in threads vs. your calendar).
+
+----
+
+## What you need
 
 ### 1. A throwaway Gmail account
 
