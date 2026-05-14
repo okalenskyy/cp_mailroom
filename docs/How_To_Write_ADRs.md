@@ -334,7 +334,5 @@ That entire ADR fits on a single page when rendered. Notice what it does:
 | Multiple decisions in one ADR                                   | Unfindable later; cannot supersede half of an ADR           | Split into one ADR per decision                              |
 | ADR opens months after the code shipped                         | Memory has decayed; rationale is fiction                    | Write the ADR *while* the code is in review                  |
 
-
-Detailed information on ARD: https://github.com/okalenskyy/architecture-decision-record#what-is-an-architecture-decision-record
 ---
 
